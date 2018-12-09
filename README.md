@@ -34,8 +34,8 @@ object bindingExample extends App {
 
 In clojure
 ```clojure
-(let [x 10
-      y 20]
+(let [x 89
+      y 90]
   (+ x y))
 ```
 A basic for loop in Scala
@@ -48,8 +48,8 @@ for(i <- 0 to 100)
 
 > _Describe the compiler or interpreter needed_.
 
-> Since Scala is interoperable with java, it runs just like java and using java. I used the terminal in Xubuntu (Linux) to run Scala by installing Scala via the deb file on (https://www.scala-lang.org/download/). You must have java jdk installed to run Scala programs so make sure that is also installed. Once you have those you can write a scala program like the one above and compile using `scalac FILENAME.scala` then run using `scala FILENAME`.
-> There is also an open source build tool for Scala and Java called sbt. To install you can use the command `sbt new scala/hello-world.g8` and the project structure will look something like this:
+> Since Scala is interoperable with java, it runs just like java and using java. I used the terminal in Xubuntu (Linux) to run Scala by installing Scala via the deb file on (https://www.scala-lang.org/download/). You must have java 8 jdk installed to run Scala programs so make sure that is also installed. Once you have those you can write a scala program like the one above and compile using `scalac FILENAME.scala` then run using `scala FILENAME`.
+> There is also an open source build tool for Scala and Java called sbt. To create a program with sbt you can use the command `sbt new scala/hello-world.g8` and the project structure will look something like this:
 ```Scala
 - hello-world
     - project
@@ -157,6 +157,7 @@ number_of_students = 70.5 // this is not an Int and will throw an error
 > - Scala is pretty easy to pick up coming from a background in java. 
 > - Decent support of IDE, can use IntelliJ IDEA for Scala
 > - Scala is highly functional
+
 > Weaknesses
 > - Since Scala has object-oriented functionality you tend to think in that mindset rather than functionally.
 > - Scala runs on the JVM which means it has no true tail-recursive optimization
