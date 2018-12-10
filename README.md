@@ -29,6 +29,12 @@ object bindingExample extends App {
   var some_variable = 89 
   some_variable = 90
   println("some_variable = " + some_variable)
+
+  println("Output = " + (some_value+some_variable))
+
+  // a simple for loop that prints numbers 0 to 10
+  for(i <- 0 to 10)
+    println(i)
 }
 ```
 
