@@ -1,0 +1,6 @@
+run
+run -m sample.csv
+run -m "sample.csv"
+run sample.csv
+run
+run sample.csv
