@@ -1,7 +1,6 @@
 # Scala, a Functional AND Object-Orientated Language
 
 - Daniel Bullock
-- Daniel.Bullock@uoit.net
 
 ## About the language
 
